@@ -1,0 +1,13 @@
+name: MiSkYleFirewall
+main:  com.github.miskyle.miskylepluginfirewall.MiSkYleFirewall
+version: 0.0.1
+api-version: 1.15
+author: miSkYle
+commands:
+  mfirewall:
+    description: mfirewall
+    usage: /<command>
+permissions: 
+  MiSkYleFirewall.Admin:
+    description: Use Admin's Commands
+    default: op

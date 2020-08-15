@@ -1,0 +1,12 @@
+# 是否为白名单模式, true为白名单模式, false为黑名单模式
+# 白名单模式仅允许列表中的插件联网或插件联网至列表中的主机
+# 黑名单模式则禁止列表中的插件联网或禁止插件访问列表中的主机
+white-list-mode: true
+
+plugins:
+  - "MiSkYleFirewall"
+
+hosts:
+  - "localhost"
+  - "127.0.0.1"
+  - "0.0.0.0"
